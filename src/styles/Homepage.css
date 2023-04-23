@@ -1,3 +1,8 @@
-h1 {
-    text-align: center;
+/* .parent {
+    display: flexbox;
+    flex-direction: column;
+} */
+
+.all-comp{
+    min-width: 480px;
 }
