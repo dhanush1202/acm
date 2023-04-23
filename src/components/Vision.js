@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Vision() {
   return (
-    <div style={{margin:"5rem"}}>
+    <div>
       <h1>VISION</h1>
       <p>
         ACM is an international student chapter that brings together technology
