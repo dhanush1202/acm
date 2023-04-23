@@ -3,12 +3,31 @@ import '../styles/navbar.css'
 
 export default function NavBar() {
   return (
-    <div>
-        <ul>
-            <li>home</li>
-            <li>acm</li>
-            <li>web</li>
-        </ul>
+    <div className='nav1'  bg="black" expand="lg" variant="dark" fixed="top">
+        <nav className="navbar navbar-expand-lg bg-dark">
+  <div className="container-fluid">
+    <a className="navbar-brand text-white" href="#">Navbar</a>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+    <div className="collapse navbar-collapse" id="navbarNav">
+      <ul className="navbar-nav">
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#">Features</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#">Pricing</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
     </div>
   )
 }

@@ -1,0 +1,27 @@
+.membs {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.membsinfo, .volinfo {
+    width: 30vw;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    min-width: 350px;
+    background-color: rgb(178, 124, 229);
+    transition: transform .2s;
+    border: 2px solid  rgb(131, 78, 181);;
+
+}
+
+.membsinfo:hover, .volinfo:hover {
+    transform: scale(1.1);
+    box-shadow: 15px 15px 15px rgb(210, 193, 226);
+} 
+
+.heads {
+    font-size: calc(1.3vw + 1.3rem);
+}
+
