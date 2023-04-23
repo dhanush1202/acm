@@ -14,8 +14,6 @@ const PreLoader = ()=> {
             <span>A</span>
             <span>C</span>
             <span>M</span>
-            
-            
         </div>
     </div>
   )
