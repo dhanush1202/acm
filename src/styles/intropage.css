@@ -1,0 +1,31 @@
+.intro {
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: aquamarine;
+    
+}
+
+.leftimg {
+    background-color: beige;
+    width: 40%;
+}
+
+.righttext {
+    width: 60%;
+    background-color: brown;
+}
+
+@media (max-width: 800px) {
+    .leftimg {
+        width: 100%;
+        height: 40%;
+    }
+    .righttext {
+        width: 100%;
+        height: 60%;
+    }
+
+}
+
