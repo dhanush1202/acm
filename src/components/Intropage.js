@@ -7,7 +7,7 @@ import Typewriter from "typewriter-effect";
 export default function Intropage() {
   return (
     <div className="intro text-light">
-      <NavBar />
+      
       <div className="parent">
         <div className="child1">
             <img src={acmimg} alt="" />
