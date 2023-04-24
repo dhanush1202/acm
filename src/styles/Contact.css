@@ -1,0 +1,21 @@
+.form{
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+h1{
+    background-color: #62E8FB;
+}
+.textarea{
+    height: 7rem;
+}
+
+@media (min-width:768px){
+    .form{
+        display: block;
+        width: 45rem;
+        margin: 0 auto;
+    }
+    
+}
