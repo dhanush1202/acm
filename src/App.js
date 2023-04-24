@@ -1,4 +1,5 @@
 import NavBar from "./components/NavBar";
+import React, {useState} from "react";
 import Homepage from './components/Homepage';
 import Eventpage from './components/Events/Eventpage';
 import Gallery from './components/Gallery';
@@ -11,10 +12,15 @@ import OurTeam2021 from './components/ourTeam/OurTeam2021';
 import OurTeam2122 from './components/ourTeam/OurTeam2122';
 import {Routes, Route} from 'react-router-dom';
 
+import PreLoader  from "./components/PreLoader" 
 
 function App() {
+
+   
+
   return (
-    <div>
+     <div>
+     <PreLoader/>
       <NavBar/>
   
       <div>
