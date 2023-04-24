@@ -1,13 +1,26 @@
 import React from "react";
 import "../styles/Homepage.css"
 import Intropage from "./Intropage";
-import NavBar from "./NavBar";
+import Vision from "./Vision";
+import Testimonial from './Testimonial';
+import MembershipInfo from './MembershipInfo';
+import Footer from './Footer';
+import Counter from './Counter';
+
+
 
 export default function Homepage() {
   return (
-    <div >
-      <NavBar/>
-      <Intropage />
+    <div className="all-comp">
+    <Intropage/>
+    <Vision />
+    <Counter/>
+    <MembershipInfo />
+    <Testimonial />
+    <Footer />
+
+    
+    
     </div>
   );
 }
