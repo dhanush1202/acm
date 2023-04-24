@@ -7,10 +7,9 @@ import Typewriter from "typewriter-effect";
 export default function Intropage() {
   return (
     <div className="intro text-light">
-      <NavBar />
       <div className="parent">
         <div className="child1">
-            <img src={acmimg} alt="" />
+            <img id="hmpgimg" src={acmimg} alt="" />
             </div>
         <div className="child2">
             <h2 className="type align-items-center">

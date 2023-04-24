@@ -11,7 +11,7 @@ import {
 
 import "react-vertical-timeline-component/style.min.css";
 
-function App() {
+function Eventpage() {
   // let workIconStyles = { background: "#06D6A0" };
   let workIconStyles = { background: "#a9ee89" };
 
@@ -59,4 +59,4 @@ function App() {
   );
 }
 
-export default App;
+export default Eventpage;
