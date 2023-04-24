@@ -5,6 +5,7 @@ import Vision from "./Vision";
 import Testimonial from './Testimonial';
 import MembershipInfo from './MembershipInfo';
 import Footer from './Footer';
+import Counter from './Counter';
 
 
 
@@ -13,6 +14,7 @@ export default function Homepage() {
     <div className="all-comp">
     <Intropage/>
     <Vision />
+    <Counter/>
     <MembershipInfo />
     <Testimonial />
     <Footer />
