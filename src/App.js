@@ -9,12 +9,12 @@ import OurTeam1819 from './components/ourTeam/OurTeam1819';
 import OurTeam1920 from './components/ourTeam/OurTeam1920';
 import OurTeam2021 from './components/ourTeam/OurTeam2021';
 import OurTeam2122 from './components/ourTeam/OurTeam2122';
-import {Routes, Route} from 'react-router-dom';import NavBar from "./components/NavBar";
+import {Routes, Route} from 'react-router-dom';
+
 
 function App() {
   return (
     <div>
-    <NavBar />
       <NavBar/>
   
       <div>
