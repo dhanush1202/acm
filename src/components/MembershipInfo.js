@@ -1,7 +1,10 @@
-import React, { Component }  from 'react';
+import {React}  from 'react';
+import { Link } from 'react-router-dom';
 import Card from 'react-bootstrap/Card';
 import '../styles/membershipinfo.css';
 import img1 from '../images/anonynous.png';
+import { ContactForm } from './ContactUs';
+import { HashLink } from 'react-router-hash-link';
 // import { CardGroup } from 'react-bootstrap';
 export const MembershipInfo = () => {
     const arr=[1,2,3];
@@ -21,7 +24,9 @@ return(
                     <p className="typedesc">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                 
                     </p>
-                    <button><b>Contact Us</b></button>
+                    <button><Link to="/contactUs" className='text-decoration-none text-black'><b>Contact Us</b></Link></button>
+                    
+                    
                 </div>
                 <div className="membertype">
                     <h5>Membership Type-2</h5>
