@@ -4,7 +4,7 @@ import '../styles/membershipinfo.css'
 export default function Testimonial() {
   return (
     <>
-    <h1 className="display-1">Testimonials</h1>
+    <h1 className="display-1 text-center heading">Testimonials</h1>
     <div className="membs">
       <div className="membsinfo">
         <div className="heads">Membership info</div>

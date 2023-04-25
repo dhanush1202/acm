@@ -31,7 +31,7 @@ export default function Intropage() {
               {/* buttons done */}
                 <div className="about">
 
-              <a href="#" className="cta mx-4 my-3">
+              <a href="#visioncomp" className="cta mx-4 my-3">
                 <span className="textbut">About Us</span>
                 <svg
                   className="svg"

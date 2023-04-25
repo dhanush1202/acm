@@ -2,6 +2,10 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    background-color: yellowgreen;
+}
+.heading {
+    background-color: yellowgreen;
 }
 
 .membsinfo, .volinfo {

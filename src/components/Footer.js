@@ -71,7 +71,7 @@ export default function Footer() {
             </section>
 
             <div className="text-center p-4">
-              Copyright © 2022 by ACM_VNRVJIET. All rights reserved.
+              Copyright © 2023 by ACM_VNRVJIET. All rights reserved.
             </div>
           </div>
         </footer>
