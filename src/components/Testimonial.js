@@ -1,5 +1,4 @@
 import React from "react";
-import '../styles/membershipinfo.css'
 
 export default function Testimonial() {
   return (

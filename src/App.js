@@ -3,8 +3,8 @@ import React, {useState} from "react";
 import Homepage from './components/Homepage';
 import Eventpage from './components/Events/Eventpage';
 import Gallery from './components/Gallery';
-import Memberships from './components/Memberships';
-import ContactUs from './components/ContactUs';
+import { MembershipInfo } from "./components/MembershipInfo";
+import { ContactForm } from "./components/ContactUs";
 import OurTeam from './components/ourTeam/OurTeam';
 import OurTeam1819 from './components/ourTeam/OurTeam1819';
 import OurTeam1920 from './components/ourTeam/OurTeam1920';
@@ -22,7 +22,6 @@ function App() {
      <div>
      <PreLoader/>
       <NavBar/>
-  
       <div>
       <Routes>
       <Route path="/" element={<Homepage/>}/>
@@ -33,8 +32,8 @@ function App() {
       <Route path="/ourTeam2018-19" element={<OurTeam1819/>}/>
       <Route path="/events" element={<Eventpage/>}/>
       <Route path="/gallery" element={<Gallery/>}/>
-      <Route path="/memberships" element={<Memberships/>}/>
-      <Route path="/contactUs" element={<ContactUs/>}/>
+      <Route path="/memberships" element={<MembershipInfo />}/>
+      <Route path="/contactUs" element={<ContactForm />}/>
       </Routes>
     </div>
     
