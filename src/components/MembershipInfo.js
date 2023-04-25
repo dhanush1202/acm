@@ -1,33 +1,67 @@
-import React from "react";
-import '../styles/membershipinfo.css'
-export default function MembershipInfo() {
-  return (
-    <div className="membs">
-      <div className="membsinfo">
-        <div className="heads">Membership info</div>
-        <div>
-          ACM is not about an individual, it is a family of 820+ members. Our
-          members are as important to us as the people who lead us. Anyone who
-          is driven by the zeal to learn something, to make their place in this
-          tech world can come and join us. All the ACM members are entitled to
-          all the events ACM conducts like coding contests, trainings on
-          trending technologies, hackathons, quiz contests and many more. All
-          the members also get the latest tech news to their mails so that they
-          are up to date on the recent technological advancements.
+import {React}  from 'react';
+import { Link } from 'react-router-dom';
+import Card from 'react-bootstrap/Card';
+import '../styles/membershipinfo.css';
+import img1 from '../images/anonynous.png';
+import { ContactForm } from './ContactUs';
+import { HashLink } from 'react-router-hash-link';
+// import { CardGroup } from 'react-bootstrap';
+export const MembershipInfo = () => {
+    const arr=[1,2,3];
+    arr.length=3;
+return(
+    <>
+        <div className='membership'>
+            <div className='title'>
+                <h1>Memberships</h1>
+            </div>
+            <p className="membershipdesc">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            
+            </p>
+            <div className='membershiptypes'>
+                <div className="membertype">
+                    <h5>Membership Type-1</h5>
+                    <p className="typedesc">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                
+                    </p>
+                    <button><Link to="/contactUs" className='text-decoration-none text-black'><b>Contact Us</b></Link></button>
+                    
+                    
+                </div>
+                <div className="membertype">
+                    <h5>Membership Type-2</h5>
+                    <p className="typedesc">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                
+                    </p>
+                        <button><b>Register</b></button>
+                </div>
+            </div>
         </div>
-      </div>
-      <div className="volinfo">
-        <div className="heads">Volunteers info</div>
-        <div>
-          Volunteers are the supporting pillars of any student chapter. It is
-          the same with ACM. In our student chapter, we have volunteers working
-          under 5 teams: Technical team, Events and PR team, Social Media team,
-          Design team and Coding team. Be it any event, our volunteers are our
-          strength that make the event successful. Together, we celebrate our
-          success; these teams work as pillars for ACM. By helping each other
-          and appreciating others work, Team ACM moves forward. Vol List
+        <div  className="testimony-h1" style={{height:"90px"}}>
+            <h1>Testimonials</h1>
         </div>
-      </div>
-    </div>
-  );
+        <div className='testimonials'>
+        {
+            arr.map(()=>{
+                return (
+                    <>
+                       
+                        <Card className='testimony'>
+                                <Card.Body>
+                                    <img src={img1} alt='A Person'/>
+                                    <h3>Something</h3>
+                                    <p>
+                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                                    </p>
+                                </Card.Body>
+                            </Card> 
+                       
+                    </>
+                )
+            })
+        }
+        </div>
+    </>
+
+);
 }
