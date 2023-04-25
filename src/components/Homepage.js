@@ -13,7 +13,9 @@ export default function Homepage() {
   return (
     <div className="all-comp">
     <Intropage/>
+    <div id="visioncomp">
     <Vision />
+    </div>
     <Counter/>
     <MembershipInfo />
     {/* <Testimonial /> */}

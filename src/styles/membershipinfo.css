@@ -75,6 +75,10 @@ h1{
     width: 175px;
     border-radius: 50%;
     overflow: hidden;
+    background-color: yellowgreen;
+}
+.heading {
+    background-color: yellowgreen;
 }
 
 .card-body{

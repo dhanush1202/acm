@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Vision() {
   return (
-    <div>
-      <h1>VISION</h1>
+    <div className="bg-primary" style={{marginTop: "-60px", paddingTop:"20vh"}}>
+      <h1 className="display-4">VISION</h1>
       <p>
         ACM is an international student chapter that brings together technology
         geeks, computer educators, working professionals, among others and gives
