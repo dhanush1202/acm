@@ -15,6 +15,11 @@ const PreLoader = ()=> {
             <span>C</span>
             <span>M</span>
         </div>
+        {/* <div className='name'>
+          <span>VNRVJIET</span>
+        </div> */}
+
+        {/* changing */}
     </div>
   )
 }

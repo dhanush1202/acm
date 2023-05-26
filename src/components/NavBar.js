@@ -2,7 +2,7 @@ import {NavLink,Link} from 'react-router-dom';
 import ACMlogo from '../images/ACMimg.png'
 import {HashLink} from 'react-router-hash-link'
 import {NavHashLink} from 'react-router-hash-link'
-import {GiHamburgerMenu} from'react-icons/gi'
+import {GiHamburgerMenu} from 'react-icons/gi'
 import {ImCancelCircle} from 'react-icons/im'
 import '../styles/navbar.css'
 import { useState,useEffect } from 'react';

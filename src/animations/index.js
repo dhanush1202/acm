@@ -13,13 +13,26 @@ export const preLoaderAnim = () => {
   })
     .to(".landing", {
       duration: 0.05,
-      css: { overflowY: "hidden", height: "90vh" },
+      css: { overflowY: "hidden", height: "100vh" },
     })
     .to(".texts-container", {
       duration: 0,
       opacity: 1,
       ease: "Power3.easeOut",
     })
+    // .to(".name", {
+    //   duration: 0,
+    //   opacity: 1,
+    //   ease: "Power3.easeOut",
+    // })
+    // .from(".name span", {
+    //   duration: 1.5,
+    //   delay: 1,
+    //   y: 70,
+    //   skewY: 10,
+    //   stagger: 0.4,
+    //   ease: "Power3.easeOut",
+    // })
     .from(".texts-container span", {
       duration: 1.5,
       delay: 1,
