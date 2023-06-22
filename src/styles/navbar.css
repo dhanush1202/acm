@@ -83,9 +83,10 @@ li.navit,li.navitselec, li.navitgalselec{
     position: absolute;
     list-style: none;
     text-align: center;
-    margin-top: 28px;
+    margin-top: 21px;    
     float: inline-start;
-    margin-left: -25px;
+    margin-left: -60px;
+    z-index: 1;
 }
 
 
