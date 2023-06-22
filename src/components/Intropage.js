@@ -1,17 +1,16 @@
 import React from "react";
 import "../styles/intropage.css";
-import acmimg from "../images/ACMimg.png";
+import acmimg from "../images/logo1.png";
 import NavBar from "./NavBar";
 import Typewriter from "typewriter-effect";
+
 
 export default function Intropage() {
   return (
     <div className="intro text-light">
       
       <div className="parent">
-        <div className="child1">
-            <img id="hmpgimg" src={acmimg} alt="" />
-            </div>
+       
         <div className="child2">
             <h2 className="type align-items-center">
 
@@ -58,6 +57,9 @@ export default function Intropage() {
             <h3 style={{textAlign:"center", marginTop:"2rem"}}>WE RISE BY LIFTING OTHERS</h3>
           
         </div>
+        <div className="child1">
+            <img className="logoimg" id="hmpgimg" src={acmimg} alt="" />
+            </div>
       </div>
     </div>
   );

@@ -1,4 +1,5 @@
 import React from "react";
+import '../styles/footer.css'
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
@@ -16,12 +17,14 @@ export default function Footer() {
       <div className="foot">
         <footer className="text-center text-lg-start bg-white text-muted">
           <div style={{ background: "rgba(162, 162, 162, 0.8)" }}>
-            <section className="d-flex justify-content-bottom justify-content-lg-between p-4 border-bottom border-top">
-              <div className="me-5 d-none d-lg-block">
-                <span>Get connected with us on social networks:</span>
+            <section className=" justify-content-bottom p-4 border-bottom border-top">
+             <div className="footicons">
+
+              <div className="leftNote">
+                Get connected with us on social networks:
               </div>
 
-              <div>
+              <div className="icons">
                 <a href="" className="me-4 link-secondary">
                   <FontAwesomeIcon icon={faFacebook} size="2x" />
                 </a>
@@ -35,6 +38,7 @@ export default function Footer() {
                   <FontAwesomeIcon icon={faLinkedin} size="2x" />
                 </a>
               </div>
+             </div>
             </section>
             <section className="">
               <div className="container text-center text-md-start mt-5">

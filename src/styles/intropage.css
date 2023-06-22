@@ -1,3 +1,5 @@
+
+
 .intro {
     height: 100vh;
 }
@@ -14,6 +16,33 @@
     flex-direction: column;
 }
 
+.logoimg {
+	animation-name: floating;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	margin-left: 30px;
+	margin-top: 5px;
+  opacity: 0.6;
+}
+
+.logoimg:hover {
+  opacity: 1;
+  transition: all 0.5s ease-in;
+}
+
+.logoimg:not(:hover){
+  opacity: 0.6;
+  transition: all 0.5s ease-out;
+}
+
+@keyframes floating {
+	0% { transform: translate(0, 0px); }
+	50% { transform: translate(0, 20px); }
+	100% { transform: translate(0, 0px); }
+}
+
+
 
 #hmpgimg {
     width: 37vw;
@@ -29,16 +58,21 @@
 
 @media (max-width: 800px){
     .parent {
-        flex-direction: column;
+        flex-direction: column-reverse;
+        align-items: center;
     }
     .child1 {
-        height: 45vh;
+      height: 0vh;
         width: 100vw;
+        display: block;
+        margin: auto;
+        opacity: 0.3;
+        padding-top: 25%;
+
     }
     .child2 {
-        height: 45vh;
+      height: 100vh;
         width: 100vw;
-
     }
     .buttons {
         flex-direction: column;
@@ -51,12 +85,15 @@
 
 
 .type {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 5px;
+    padding-top: 40px;
+    margin-top: 50px;
+    color: rgb(14, 158, 214);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 
   .buttons {

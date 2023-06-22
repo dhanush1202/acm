@@ -12,14 +12,18 @@ import Counter from './Counter';
 export default function Homepage() {
   return (
     <div className="all-comp">
+      <div className="intro">
     <Intropage/>
+
+      </div>
     <div id="visioncomp">
     <Vision />
-    </div>
     <Counter/>
     <MembershipInfo />
     {/* <Testimonial /> */}
     <Footer />
+    
+    </div>
     </div>
   );
 }

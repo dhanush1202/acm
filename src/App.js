@@ -1,5 +1,4 @@
 import NavBar from "./components/NavBar";
-import React, {useState} from "react";
 import Homepage from './components/Homepage';
 import Eventpage from './components/Events/Eventpage';
 import Gallery from './components/Gallery';

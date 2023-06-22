@@ -2,3 +2,29 @@
     display: flexbox;
     flex-direction: column;
 } */
+
+::-webkit-scrollbar {
+    width: 8px;
+    /* opacity: 0.5; */
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(88, 146, 196);
+    /* opacity: 0.5; */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(87, 83, 91);
+
+    
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(55, 0, 107);
+    /* opacity: 1; */
+}
+
+
+.visioncomp {
+    position: fixed;
+  }
